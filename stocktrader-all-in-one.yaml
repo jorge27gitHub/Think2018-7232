@@ -68,7 +68,7 @@ spec:
         imagePullPolicy: IfNotPresent
 ---
 #Deploy the service
-apiVersion: v1
+apiVersion: v1.1.0
 kind: Service
 metadata:
   name: loyalty-level-service
@@ -217,7 +217,7 @@ spec:
 ---
 #
 #Deploy the service
-apiVersion: v1
+apiVersion: v1.1.0
 kind: Service
 metadata:
   name: portfolio-service
@@ -278,7 +278,7 @@ spec:
         imagePullPolicy: Always
 ---
 #Deploy the service
-apiVersion: v1
+apiVersion: v1.1.0
 kind: Service
 metadata:
   name: stock-quote-service
@@ -326,7 +326,7 @@ spec:
         imagePullPolicy: IfNotPresent
 ---
 #Deploy the service
-apiVersion: v1
+apiVersion: v1.1.0
 kind: Service
 metadata:
   name: trader-service
